@@ -1,0 +1,15 @@
+D:\OOP\4sem\Lab5\Lab5\bin\Debug\Lab5.exe.config
+D:\OOP\4sem\Lab5\Lab5\bin\Debug\Lab5.exe
+D:\OOP\4sem\Lab5\Lab5\bin\Debug\Lab5.pdb
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.Start.resources
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.exe
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.pdb
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.AddForm.resources
+D:\OOP\4sem\Lab5\Lab5\bin\Debug\Newtonsoft.Json.dll
+D:\OOP\4sem\Lab5\Lab5\bin\Debug\Newtonsoft.Json.xml
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.csproj.CopyComplete
+D:\OOP\4sem\Lab5\Lab5\obj\Debug\Lab5.LibraryForm.resources

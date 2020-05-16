@@ -1,0 +1,7 @@
+D:\ООП\Lab8_OOP\Lab8_OOP\bin\Debug\Lab8_OOP.exe.config
+D:\ООП\Lab8_OOP\Lab8_OOP\bin\Debug\Lab8_OOP.exe
+D:\ООП\Lab8_OOP\Lab8_OOP\bin\Debug\Lab8_OOP.pdb
+D:\ООП\Lab8_OOP\Lab8_OOP\obj\Debug\Lab8_OOP.csprojAssemblyReference.cache
+D:\ООП\Lab8_OOP\Lab8_OOP\obj\Debug\Lab8_OOP.csproj.CoreCompileInputs.cache
+D:\ООП\Lab8_OOP\Lab8_OOP\obj\Debug\Lab8_OOP.exe
+D:\ООП\Lab8_OOP\Lab8_OOP\obj\Debug\Lab8_OOP.pdb

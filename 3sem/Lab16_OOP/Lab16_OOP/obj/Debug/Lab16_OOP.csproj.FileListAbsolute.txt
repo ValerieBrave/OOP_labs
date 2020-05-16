@@ -1,0 +1,7 @@
+D:\OOP\Lab16_OOP\Lab16_OOP\bin\Debug\Lab16_OOP.exe.config
+D:\OOP\Lab16_OOP\Lab16_OOP\bin\Debug\Lab16_OOP.exe
+D:\OOP\Lab16_OOP\Lab16_OOP\bin\Debug\Lab16_OOP.pdb
+D:\OOP\Lab16_OOP\Lab16_OOP\obj\Debug\Lab16_OOP.csprojAssemblyReference.cache
+D:\OOP\Lab16_OOP\Lab16_OOP\obj\Debug\Lab16_OOP.csproj.CoreCompileInputs.cache
+D:\OOP\Lab16_OOP\Lab16_OOP\obj\Debug\Lab16_OOP.exe
+D:\OOP\Lab16_OOP\Lab16_OOP\obj\Debug\Lab16_OOP.pdb

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Train xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <passengers>300</passengers>
+  <carriages>10</carriages>
+  <destination>Minsk</destination>
+  <departure>2019-12-31T23:00:00</departure>
+</Train>

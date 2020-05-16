@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Lab7_8.Resourses"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <v:String x:Key="welc_title">Welcome!</v:String>
+    <v:String x:Key="welc_text1">Welcome to your </v:String>
+    <v:String x:Key="welc_text2">Task Manager</v:String>
+    <v:String x:Key="welc_start">START</v:String>
+    <v:String x:Key="welc_switch">ENG/RU</v:String>
+    <v:String x:Key="shed_add">ADD</v:String>
+    <v:String x:Key="shed_delete">DELETE</v:String>
+    <v:String x:Key="shed_edit">EDIT</v:String>
+</ResourceDictionary>

@@ -1,0 +1,7 @@
+D:\ООП\Lab10_OOP\Lab10_OOP\bin\Debug\Lab10_OOP.exe.config
+D:\ООП\Lab10_OOP\Lab10_OOP\bin\Debug\Lab10_OOP.exe
+D:\ООП\Lab10_OOP\Lab10_OOP\bin\Debug\Lab10_OOP.pdb
+D:\ООП\Lab10_OOP\Lab10_OOP\obj\Debug\Lab10_OOP.csproj.CoreCompileInputs.cache
+D:\ООП\Lab10_OOP\Lab10_OOP\obj\Debug\Lab10_OOP.exe
+D:\ООП\Lab10_OOP\Lab10_OOP\obj\Debug\Lab10_OOP.pdb
+D:\ООП\Lab10_OOP\Lab10_OOP\obj\Debug\Lab10_OOP.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dests>
+  <Train number="12453">
+    <destination>Adler</destination>
+  </Train>
+  <Train number="10983">
+    <destination>Tbilisi</destination>
+  </Train>
+  <Train number="18543">
+    <destination>Baku</destination>
+  </Train>
+</dests>

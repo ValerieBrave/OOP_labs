@@ -1,0 +1,64 @@
+﻿<Window x:Class="Lab7_8.EditTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7_8"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="EditTask" ResizeMode="NoResize" Height="700" Width="450" Icon="Icon.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition  Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="36" Margin="38,48,0,0" TextWrapping="Wrap" Name="taskName" Text="" VerticalAlignment="Top" Width="372" FontFamily="Yu Gothic Medium" FontSize="16" />
+        <xctk:DateTimeUpDown Grid.Row="1"  Margin="10,42,12,10" Name="taskStart" Width="200" Height="37"/>
+        <xctk:DateTimeUpDown Grid.Row="1"  Margin="10,42,12,10" Grid.Column="1" Name="taskEnd" Width="200" Height="37" Text="{Binding ElementName=taskStart, Path=Text, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"/>
+        <ComboBox Grid.ColumnSpan="2" Name="taskPrio" HorizontalAlignment="Left" Margin="70,54,0,0" Grid.Row="2" VerticalAlignment="Top" Width="300" Height="30">
+            <RadioButton Content="super important"/>
+            <RadioButton Content="important"/>
+            <RadioButton Content="can wait"/>
+            <RadioButton Content="unsignificant"/>
+        </ComboBox>
+        <ComboBox Grid.ColumnSpan="2" Name="taskFreq" HorizontalAlignment="Left" Margin="70,55,0,0" Grid.Row="3" VerticalAlignment="Top" Width="300" Height="30">
+            <RadioButton Content="Once"/>
+            <RadioButton Content="Daily"/>
+            <RadioButton Content="Weekly"/>
+            <RadioButton Content="Monthly"/>
+            <RadioButton Content="Annually"/>
+        </ComboBox>
+        <ComboBox Grid.ColumnSpan="2" Name="taskCat" HorizontalAlignment="Left" Margin="70,49,0,0" Grid.Row="4" VerticalAlignment="Top" Width="300" Height="30">
+            <CheckBox Content="JOB"/>
+            <CheckBox Content="HEALTH"/>
+            <CheckBox Content="HOME"/>
+            <CheckBox Content="STUDY"/>
+            <CheckBox Content="RELAX"/>
+            <CheckBox Content="OTHER"/>
+        </ComboBox>
+        <ComboBox Grid.ColumnSpan="2" Name="taskStat" HorizontalAlignment="Left" Margin="70,47,0,0" Grid.Row="5" VerticalAlignment="Top" Width="300" Height="30">
+            <RadioButton Content="Undone"/>
+            <RadioButton Content="Done"/>
+            <RadioButton Content="Delayed"/>
+        </ComboBox>
+        <TextBox x:Name="ExtraInfo" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="78" Margin="70,10,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Text="" FontFamily="Yu Gothic Medium" FontSize="14"/>
+        <Button x:Name="btnEdit"  Grid.ColumnSpan="2" Content="EDIT" HorizontalAlignment="Left" Margin="154,0,0,0" Grid.Row="7" VerticalAlignment="Top" Width="134" Height="30" Background="#FF5353FF" Foreground="White" FontSize="14" Click="btnEdit_Click" />
+        <TextBlock x:Name="name_label" HorizontalAlignment="Left" Margin="38,19,0,0" TextWrapping="Wrap" Text="Edit task name" VerticalAlignment="Top" Width="372" Height="24" FontSize="18" FontFamily="Yu Gothic" Foreground="#FF0051FF" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="help_start" HorizontalAlignment="Left" Margin="10,15,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Edit start" VerticalAlignment="Top" Width="199" Height="21" Foreground="#FF0051FF" FontFamily="Yu Gothic" FontSize="14"/>
+        <TextBlock x:Name="help_end" Grid.Column="1" HorizontalAlignment="Left" Margin="2,15,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Edit end" VerticalAlignment="Top" Height="21" Width="201" Foreground="#FF0051FF" FontFamily="Yu Gothic" FontSize="14"/>
+        <TextBlock x:Name="help_prio" HorizontalAlignment="Left" Margin="70,24,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Edit priority" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.531" Width="300" Height="25" FontSize="16" FontFamily="Yu Gothic" Foreground="#FF0051FF" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="help_freq" HorizontalAlignment="Left" Margin="70,25,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Edit frequency" VerticalAlignment="Top" Width="300" Height="20" FontFamily="Yu Gothic" FontSize="16" Foreground="#FF0046FF" RenderTransformOrigin="0.503,0.525" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="help_cat" HorizontalAlignment="Left" Margin="70,19,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Edit cathegory" VerticalAlignment="Top" Width="300" Height="25" Foreground="#FF0051FF" FontFamily="Yu Gothic" FontSize="16" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="help_stat" HorizontalAlignment="Left" Margin="70,20,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Edit status" VerticalAlignment="Top" Width="300" Height="27" FontFamily="Yu Gothic" FontSize="16" Foreground="#FF0051FF" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
