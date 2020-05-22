@@ -45,3 +45,7 @@ D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\Resources\Themes.baml
 D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\LimitedInput.g.cs
 D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\LimitedInput.baml
+D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\RoutedDemo.g.cs
+D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\RoutedDemo.baml
+D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\UserCommandDemo.g.cs
+D:\OOP\4sem\Lab7-8\Lab7-8\obj\Debug\UserCommandDemo.baml

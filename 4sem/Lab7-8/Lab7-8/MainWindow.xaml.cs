@@ -64,5 +64,17 @@ namespace Lab7_8
             if (curlang.Equals("en-US")) App.Language = new CultureInfo("ru-RU");
             else App.Language = new CultureInfo("en-US");
         }
+
+        private void btnRoutedDemo_Click(object sender, RoutedEventArgs e)
+        {
+            RoutedDemo rd = new RoutedDemo();
+            rd.ShowDialog();
+        }
+
+        private void btnUserCom_Click(object sender, RoutedEventArgs e)
+        {
+            UserCommandDemo ucd = new UserCommandDemo();
+            ucd.Show();
+        }
     }
 }

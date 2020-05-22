@@ -1,0 +1,26 @@
+﻿<Window x:Class="Lab7_8.UserCommandDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7_8"
+        xmlns:uc="clr-namespace:Lab7_8.usercontrol"
+        xmlns:w="clr-namespace:Lab7_8"
+        mc:Ignorable="d"
+        Title="UserCommandDemo" Height="450" Width="800">
+
+    <Grid>
+        <Border Width="200" Margin="147,121,445,209">
+            <uc:LimitedInput MaxLength="5" x:Name="liminp" Margin="10,10,10,10">
+                <uc:LimitedInput.CommandBindings>
+                    <CommandBinding Command="local:Command.DoubleLength" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+                </uc:LimitedInput.CommandBindings>
+            </uc:LimitedInput>
+        </Border>
+        <Button Width="100" Margin="387,159,305,224" 
+                Command="local:Command.DoubleLength"
+                CommandTarget="{Binding ElementName=liminp}"
+                CommandParameter="{Binding ElementName=liminp, Path=MaxLength}"
+                Content="Click!"/>
+    </Grid>
+</Window>

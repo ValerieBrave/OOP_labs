@@ -91,6 +91,7 @@
     <Compile Include="AddTask.xaml.cs">
       <DependentUpon>AddTask.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Command.cs" />
     <Compile Include="EditTask.xaml.cs">
       <DependentUpon>EditTask.xaml</DependentUpon>
     </Compile>
@@ -103,6 +104,9 @@
     <Compile Include="TaskToDo.cs" />
     <Compile Include="LimitedInput.xaml.cs">
       <DependentUpon>LimitedInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserCommandDemo.xaml.cs">
+      <DependentUpon>UserCommandDemo.xaml</DependentUpon>
     </Compile>
     <Page Include="AddTask.xaml">
       <SubType>Designer</SubType>
@@ -145,6 +149,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LimitedInput.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserCommandDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
