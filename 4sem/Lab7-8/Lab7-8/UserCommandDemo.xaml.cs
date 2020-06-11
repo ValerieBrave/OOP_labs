@@ -33,9 +33,6 @@ namespace Lab7_8
         private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
             e.CanExecute = true;
-            //if (this.liminp.Text == null) e.Handled = false;
-            //else if (this.liminp.Text.Length == this.liminp.MaxLength) e.Handled = true;
-            //e.Handled = true;
         }
     }
 }
